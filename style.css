@@ -1,0 +1,96 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: blue;
+  background-color: #0f0062;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 10rem;
+  position: relative;
+}
+
+.btn-orange {
+  background-color: blue;
+  color: black;
+  background-color: #0f0062;
+  color: white;
+}
+
+.btn-blue::after {
+  background-color: blue;
+  color: black;
+  background-color: #0f0062;
+  color: white;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-effect {
+  font-size: 5rem;
+  margin: 1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Anton", sans-serif;
+  background-image: url(media/poggers.jpg);
+  background-position: center;
+  color: transparent;
+  background-clip: text;
+  border-radius: 95%;
+}
+
+.text-effect:hover {
+  background-image: url(media/poggers.jpg);
+  background-position: center;
+  color: #941414;
+  -webkit-transform: scaleY(3) scaleX(3);
+          transform: scaleY(3) scaleX(3);
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  font-size: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */
