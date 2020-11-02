@@ -17,14 +17,14 @@
   background-color: blue;
   color: black;
   background-color: color(blue);
-  color: white;
+  color: color(orange);
 }
  
 .btn-blue::after {
   background-color: blue;
   color: black;
   background-color: color(blue);
-  color: white;
+  color: color(rgb(174, 0, 255));
 }
  
 
