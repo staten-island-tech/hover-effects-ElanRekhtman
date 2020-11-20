@@ -1,0 +1,300 @@
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 1.5rem 4rem;
+  background-color: #ffa600;
+  margin: 1rem auto;
+  font-size: 2rem;
+  border-radius: 10rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  position: relative;
+}
+
+.btn-orange {
+  background-color: #ffa600;
+  color: black;
+  background-color: #0f0062;
+  color: #ffa600;
+}
+
+.btn-orange::after {
+  background-color: #ffa600;
+  color: black;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-2px);
+          transform: translateY(-2px);
+  -webkit-box-shadow: 0 10px 0.5rem black;
+          box-shadow: 0 10px 0.5rem black;
+}
+
+.btn::after {
+  content: "";
+  display: inline-block;
+  height: 100%;
+  width: 100%;
+  border-radius: 10rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.btn:hover::after {
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  opacity: 0;
+}
+
+.btn:active {
+  -webkit-transform: translateY(-1px);
+          transform: translateY(-1px);
+  -webkit-transform: scaleX(1.5) scaleY(1.6);
+          transform: scaleX(1.5) scaleY(1.6);
+  -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+          box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-effect {
+  background-image: url("./img/OrangesX.png");
+  font-size: 5rem;
+  margin: 1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Anton", sans-serif;
+  background-image: url();
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+  -webkit-background-clip: text;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  letter-spacing: 3rem;
+  background-image: url();
+  background-position: center;
+  color: #941414;
+  -webkit-transform: scaleY(3) scaleX(3);
+          transform: scaleY(3) scaleX(3);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Oranges {
+  height: 20rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  border-radius: 50%;
+}
+
+.Oranges:hover {
+  border-radius: 0;
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.text-effect {
+  background-image: url("./img/OrangesX.png");
+  font-size: 5rem;
+  margin: 1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  font-family: "Anton", sans-serif;
+  background-image: url();
+  background-position: center;
+  color: transparent;
+  font-size: 8rem;
+  -webkit-background-clip: text;
+  transition: all 0.3s;
+}
+
+.text-effect:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  letter-spacing: 3rem;
+  background-image: url();
+  background-position: center;
+  color: #941414;
+  -webkit-transform: scaleY(3) scaleX(3);
+          transform: scaleY(3) scaleX(3);
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.orange-parent {
+  width: 60rem;
+  height: 40rem;
+}
+
+.orange-gallery {
+  margin: 3rem;
+  position: relative;
+}
+
+.orange-photo {
+  position: absolute;
+  height: 20rem;
+  -webkit-box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 1.5rem 1rem rgba(0, 0, 0, 0.4);
+  outline-offset: 1rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.orange-photo:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  -webkit-box-shadow: 0 3rem 1rem rgba(0, 0, 0, 0.4);
+          box-shadow: 0 3rem 1rem rgba(0, 0, 0, 0.4);
+  outline: 1rem solid #ffa600;
+  z-index: 2;
+}
+
+.orange-gallery:hover .orange-photo:not(:hover) {
+  -webkit-transform: scale(0.8);
+          transform: scale(0.8);
+  opacity: 0.3;
+}
+
+.orange-photo-1 {
+  top: 10rem;
+  left: 15%;
+}
+
+.orange-photo-2 {
+  top: 2rem;
+  right: 0;
+}
+
+.orange-photo-3 {
+  top: -2rem;
+  left: 0;
+}
+
+html,
+body {
+  font-size: 62.5%;
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.Orange {
+  height: 30rem;
+  position: relative;
+}
+
+.Orange-pic {
+  height: 30rem;
+  -webkit-clip-path: circle();
+          clip-path: circle();
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.Orange-header {
+  font-size: 3rem;
+  opacity: 1;
+  color: black;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-transform: uppercase;
+}
+
+.Orange:hover .Orange-pic {
+  -webkit-filter: grayscale(90%);
+          filter: grayscale(90%);
+}
+
+.Orange:hover .Orange-header {
+  opacity: 1;
+  top: 50%;
+}
+
+.container {
+  width: 80vw;
+  margin: 2rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 1rem;
+  font-size: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

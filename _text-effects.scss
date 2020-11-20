@@ -1,19 +1,22 @@
 @import "_variables.scss";
-
 .text-effect {
+  background-image: url("./img/OrangesX.png");
   font-size: 5rem;
   margin: 1rem;
   transition: all 0.3s;
   font-family: $font;
-  background-image: url(media/poggers.jpg);
+  background-image: url();
   background-position: center;
   color: transparent;
-  background-clip: text;
-  border-radius: 95%;
+  font-size: 8rem;
+  -webkit-background-clip: text;
+  transition: all 0.3s;
 }
-
 .text-effect:hover {
-  background-image: url(media/poggers.jpg);
+  transform: rotate(360deg);
+  letter-spacing: 3rem;
+
+  background-image: url();
   background-position: center;
   color: color(red);
   transform: scaleY(3) scaleX(3);
