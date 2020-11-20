@@ -5,19 +5,16 @@
   margin: 1rem;
   transition: all 0.3s;
   font-family: $font;
-  background-image: url();
   background-position: center;
   color: transparent;
   font-size: 8rem;
   -webkit-background-clip: text;
-  transition: all 0.3s;
+  transition: all 0.5s;
 }
 .text-effect:hover {
-  transform: rotate(360deg);
-  letter-spacing: 3rem;
-
-  background-image: url();
+  letter-spacing: 10rem;
+  transform: rotate(180deg);
+  background-image: url("./img/OrangesX.png");
   background-position: center;
-  color: color(red);
-  transform: scaleY(3) scaleX(3);
+  color: color(black);
 }

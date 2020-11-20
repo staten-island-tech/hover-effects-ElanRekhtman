@@ -11,7 +11,7 @@
 .Orange-header {
   font-size: 3rem;
   opacity: 1;
-  color: black;
+  color: white;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -20,7 +20,7 @@
   text-transform: uppercase;
 }
 .Orange:hover .Orange-pic {
-  filter: grayscale(90%);
+  filter: grayscale(95%);
 }
 .Orange:hover .Orange-header {
   opacity: 1;
